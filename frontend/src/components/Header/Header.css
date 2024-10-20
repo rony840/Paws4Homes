@@ -1,0 +1,136 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+}
+
+.header-container {
+  display: block;
+  z-index: 100;
+  width: 100%;
+  position: fixed;
+  animation: none !important;
+  transition: none !important;
+}
+
+.gradient-background {
+  width: 100%;
+  height: 8.9rem; 
+  position: absolute;
+  background: linear-gradient(91deg, rgba(0, 128, 128, 0.47) 0%, rgba(255, 127, 80, 0.47) 100%);
+  box-shadow: 0rem 0.4rem 0.4rem 0.2rem rgba(0, 0, 0, 0.25); 
+  border: 0.1rem #008080 solid; 
+  backdrop-filter: blur(2rem); 
+}
+
+.nav-links {
+  width: 54rem; /* 540px */
+  height: 2.8rem; /* 28px */
+  position: absolute;
+  left: 125rem; /* 851px */
+  top: 3.8rem; /* 38px */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5rem; /* 50px */
+}
+
+.nav-item {
+  text-align: center;
+  color: white;
+  font-size: 2.4rem; /* 24px */
+  font-family: 'Acme';
+  font-weight: 400;
+  line-height: 2.75rem; /* 27.5px */
+  word-wrap: break-word;
+  margin-right: 2rem; 
+  display: flex;
+  align-items: center; 
+  position: relative;
+  white-space: nowrap;
+}
+
+.unread-count {
+  background-color: #ff0000;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.4rem; 
+  font-size: 1.2rem; 
+  position: absolute;
+  top: -0.8rem; 
+  right: -1.6rem; 
+  width: 1.6rem;
+  height: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unread-count, .unread-count-dropdown {
+  font-weight: bold;
+  margin-left: 4px;
+  color: red;
+}
+
+.brand-name {
+  width: 16.1rem; /* 161px */
+  position: absolute;
+  left: 16.1rem; /* 161px */
+  top: 3.8rem; /* 38px */
+  color: white;
+  font-size: 2.4rem; /* 24px */
+  font-family: 'Acme';
+  font-weight: 400;
+  line-height: 2.75rem; /* 27.5px */
+  word-wrap: break-word;
+}
+
+.brand-logo {
+  width: 5.8rem; /* 58px */
+  height: 5.7rem; /* 57px */
+  position: absolute;
+  left: 9.1rem; /* 91px */
+  top: 1.6rem; /* 16px */
+}
+
+.login-link {
+  text-decoration: none;
+}
+
+.brand-link {
+  text-decoration: none; 
+  color: inherit;
+}
+
+.nav-item.login-link {
+  position: relative; 
+}
+
+.dropdown-menu {
+  display: none; /* Initially hidden */
+  position: absolute;
+  top: -14px; 
+  left: -20px;
+  width: 177px;
+  background: linear-gradient( rgba(255, 127, 80, 0.47) 0%, rgba(0, 128, 128, 0.47) 100%);
+  box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+  border: 1px #008080 solid;
+  backdrop-filter: blur(20px);
+}
+
+.nav-item.login-link:hover .dropdown-menu {
+  display: block; /* Show on hover */
+}
+
+.dropdown-item {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Acme';
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,112 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+  }
+
+  .signup-container {
+    background-color: #f1f1f1;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .white-rectangle {
+    background-color: white;
+    width: 1680.002px;
+    height: 936.924px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    
+  }
+
+  .application-rectangle {
+    width: 690px;
+    height: 909px;
+    background: #D5EAEA;
+    border-radius: 14.05px;
+    position: absolute;
+    top: 14px; 
+    left: 14px; 
+    overflow: hidden;
+}
+
+.application-heading-text {
+    color: black;
+    font-size: 40px;
+    font-family: 'Acme', sans-serif;
+    padding-top: 100px;
+    text-align: center; 
+}
+
+.application-text {
+    color: black;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 17px;
+    text-align: center; 
+}
+
+
+
+
+.paw-pic {
+    width: auto; 
+    height: auto; 
+    position: absolute;
+    left: 390px; 
+    top: 550px; 
+  }
+
+  .adoption-button {
+    width: 446px;
+    height: 76px;
+    padding-top: 26.22px;
+    padding-bottom: 19.63px;
+    padding-left: 76.84px;
+    padding-right: 77.77px;
+    background: #FD7401;
+    box-shadow: 0px 0px 19.67px rgba(0, 0, 0, 0.12);
+    border-radius: 7.02px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer; 
+    bottom: 44px;
+    left: 1031px;
+    position: absolute;
+    
+}
+
+.adoption-button-text {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: 'Acme', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.adop-dog-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .adoption-form-style {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 103px; 
+    left: 774px; 
+}
+
+.adoption-input-group {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    margin-bottom: 16px;
+}
